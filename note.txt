@@ -1,0 +1,31 @@
+Project 2/20
+
+Project Description
+This project is guess game created with HTML, CSS (BOOTSTRAP included) and JAVASCRIPT. 
+The JavaScript aspect basically involves collecting user checking user input against a random number generated generated with Math.random() Js method. 
+A set of if/else statements was then used to to check if the user entry match the random number
+Viola! Thats all!
+
+Hosted Project
+JavaScript Guess Game (Hosted on Vercel)
+https://background-changer.vercel.app/
+
+Source Files
+https://github.com/ (Hosted on Github)
+
+Project Objective
+The objective of this JavaScript Project to refresh my knowledge of:
+
+if/else statements
+Math.random() method
+DOM manipulation
+--window.location.reload()
+--addEventlistener()
+--querySelector()
+--element.style.visibility
+
+
+
+Personalized Summary
+I was explaining if/else statements to a friend using the chrome console and 
+I decided to extend it to a small solo project. It took less than 30 minutes to code(Javascript).

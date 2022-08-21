@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Guess Game</title>
+</head>
+<body>
+    <!-- ===Navbar begins here=== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand mt-1 text-white display-6" href="#">
+            <img src="./img/Ganiu-pic.png" alt="" width="48" height="47" class="d-inline-block rounded-circle px-auto py-auto ">
+            <span class="h1">Durojaye Ganiu</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/file/d/1MoYVFO3cpARkSWM_9sWm7YeDo5_l8AyJ/view?usp=sharing" target="_blank">My Resume</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://background-changer.vercel.app" target="_blank">Background Changer</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- ===Navbar Ends here=== -->    
+
+    <div class="row container container-md container-sm container-sm col-sm-10 mx-auto my-5 mx-5 border border-5 p-5" id="quote-container"">
+        <h2 class="success">Guess a number between 0 and 4</h2>
+        <input type="number" id="guess" class="h1">
+        <!-- <div class="container col-md-12 col-sm-12 mx-auto my-5 mx-5 border border-success" id="quote-container">
+        </div> -->
+        <div>
+            <h3><em id="winOrLossAlert"></em></h3>
+
+            <h5 id="guessedNum"></h5>
+            <h5 id="randomNum"></h5>
+            
+        </div>
+    </div>
+        <div class="container generate-btn mx-auto my-5" id="quote-container">
+            <button id="generate-btn" onclick="return guessNumber()" class=" btn btn-success px-5">Play</button>
+            
+            <button class="btn btn-primary" id="replay" onClick="window.location.reload()">Reset game</button>
+        </div>
+    </div>
+
+
+    
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.container, .generate-btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    /* padding-bottom: 10px; */
+    /* height: 60vh;
+    width: 70vh; */
+    margin: auto;
+}
+.generate-btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+/* .btn{
+    margin: auto;
+    padding: 4px 8px;
+    background-color: wheat;
+    border-radius: 4px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+} */
+
+#replay{
+        /* background-color: yellow;     */
+    visibility: hidden;
+}
+#guess{
+    width: 40vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 10px;
+    background-color: burlywood;
+
+}
